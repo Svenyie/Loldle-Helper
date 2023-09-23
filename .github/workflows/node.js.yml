@@ -30,7 +30,7 @@ jobs:
     - run: npm run build --if-present
     
     - name: Upload screenshots as a github-pages artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-pages-artifact@v2
       with: 
         name: github-pages
         path: build
