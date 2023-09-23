@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.AppContent {
+  background-color: #0d0c2c;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.row-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: flex-start;
+}
+
+.collumn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.row-container .collumn-container:nth-child(odd){
+  background-color: rgb(24, 25, 70);
+}
+
+.champ-item {
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  overflow: hidden;
+}
+
+
+.champ-item {
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  overflow: hidden;
+}
+
+.grid-item {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.grid-item:nth-child(8) {
+  padding-right: 10px;
+}
+
+.grid-item:nth-child(1) {
+  padding-left: 10px;
+}
+
+.AppBar {
+  color: white;
+  background-color: #0c121d;
+  height: 9vh;
+}
+
+.MuiFormControl-root {
+  width: 100% !important;
+}
+
+/* .champ-item[Class*="Male"] {
+  background-color: rgba(0, 195, 255, 0.61);
+}
+
+.champ-item[Class*="Female"] {
+  background-color: rgba(255, 0, 255, 0.575);
+}
+
+.champ-item[Class*="Top"] {
+  background-color: rgba(255, 0, 0, 0.575);
+}
+
+.champ-item[Class*="Jungle"] {
+  background-color: rgba(32, 85, 30, 0.733);
+} */
+
+.AppTitle {
+  font-size: 20px;
+  padding-top: 30px;
+}
