@@ -48,10 +48,8 @@ jobs:
       
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy
+    - name: Deploy to GitHub Pages
+      id: deployment
       uses: actions/deploy-pages@v2
       with:
         artifact_name: Loldle-Build
-        pages: write
-        id-token: write
-    
