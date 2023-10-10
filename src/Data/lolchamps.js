@@ -952,7 +952,7 @@ const data = [
   {
     Champion: "Pantheon",
     Gender: "Male",
-    Position: "Jungle,Middle,Support",
+    Position: "Top,Middle,Support",
     Species: "Aspect,Human",
     Resource: "Mana",
     Ranged: "Melee",
