@@ -12,7 +12,7 @@ const darkTheme = createTheme({
 });
 
 const Gender = ["Male", "Female", "Other"];
-const Position = ["Top", "Jungle", "Middel", "Bottom", "Support"];
+const Position = ["Top", "Jungle", "Middle", "Bottom", "Support"];
 const Species = ["Darkin","Vastayan","Human","Minotaur","Undead","God","Celestial","God-Warrior",
 "Void-Being","Golem","Cyborg","Yordle","Aspect","Chemically Altered","Demon","Unknown","Spirit","Revenant","Dragon","Brackern",
 "Iceborn","Cat","Magicborn","Spiritualist","Magically Altered","Dog","Yeti","Troll","Rat"].sort();
